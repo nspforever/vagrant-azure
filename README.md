@@ -13,14 +13,14 @@ Vagrant plugin that adds an Azure provider to Vagrant, allowing Vagrant to contr
 1. Get to know what is Vagrant at [here][1]
 2. Get to know how to develop a Vagrant plugin at [here][2]
 3. Take the vagrant-aws plugin as an example:
-..* [plugin.rb][3] defines the plugin
-..* [provider.rb][4] implements the provider
-..* [config.rb][5] implements the config
+    * [plugin.rb][3] defines the plugin
+    * [provider.rb][4] implements the provider
+    * [config.rb][5] implements the config
 4. SSH solution
-..* [Win32-OpenSSH][6] will be used as the SSH client for windows client
-..* [Win32-OpenSSH][6] will be used as the SSH server for windows VM in Azure
-..* [Cgwin][7] is an alternative if Win32-OpenSSH is not ready
-..* [Putty and pscp][8] is another alternative
+    * [Win32-OpenSSH][6] will be used as the SSH client for windows client
+    * [Win32-OpenSSH][6] will be used as the SSH server for windows VM in Azure
+    * [Cgwin][7] is an alternative if Win32-OpenSSH is not ready
+    * [Putty and pscp][8] is another alternative
 
 
     
